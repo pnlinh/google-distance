@@ -1,0 +1,24 @@
+{
+  "name": "pnlinh/google-distance",
+  "type": "library",
+  "description": "Caculate Google Distance Matrix API",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pham Ngoc Linh",
+      "email": "pnlinh1207@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pnlinh\\GoogleDistance\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
