@@ -4,6 +4,7 @@ Caculate Google Distance Matrix API
 ## Requirements
 
 - PHP >= 7.1.3
+- GuzzleHttp >= 6.3
 
 ## Installation
 
