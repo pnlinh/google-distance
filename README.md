@@ -11,7 +11,7 @@ Caculate Google Distance Matrix API
 Require this package with composer.
 
 ```bash
-composer require pnlinh/google-distance:dev-master
+composer require pnlinh/google-distance
 ```
 
 ## Usage
