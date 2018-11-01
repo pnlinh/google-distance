@@ -5,7 +5,7 @@ namespace Pnlinh\GoogleDistance\Contracts;
 interface GoogleDistanceContract
 {
     /**
-     * Caculate distance from origins to destinations
+     * Caculate distance from origins to destinations.
      *
      * @return int
      */
