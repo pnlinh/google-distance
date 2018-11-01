@@ -1,5 +1,5 @@
 # Google Distance
-Caculate Google Distance Matrix API
+[![StyleCI](https://github.styleci.io/repos/155354599/shield?branch=master)](https://github.styleci.io/repos/155354599)
 
 ## Requirements
 
