@@ -31,7 +31,7 @@ class DistanceApi implements GoogleDistanceContract
     }
 
     /**
-     * Get API_KEY
+     * Get API_KEY.
      *
      * @return mixed
      */
@@ -41,7 +41,7 @@ class DistanceApi implements GoogleDistanceContract
     }
 
     /**
-     * Get origins
+     * Get origins.
      *
      * @return mixed
      */
@@ -51,9 +51,10 @@ class DistanceApi implements GoogleDistanceContract
     }
 
     /**
-     * Set origins
+     * Set origins.
      *
      * @param $origins
+     *
      * @return \Pnlinh\GoogleDistance\DistanceApi
      */
     public function setOrigins($origins): self
@@ -64,7 +65,7 @@ class DistanceApi implements GoogleDistanceContract
     }
 
     /**
-     * Get destinations
+     * Get destinations.
      *
      * @return mixed
      */
@@ -74,9 +75,10 @@ class DistanceApi implements GoogleDistanceContract
     }
 
     /**
-     * Set destinations
+     * Set destinations.
      *
      * @param $destinations
+     *
      * @return \Pnlinh\GoogleDistance\DistanceApi
      */
     public function setDestinations($destinations): self
@@ -87,7 +89,7 @@ class DistanceApi implements GoogleDistanceContract
     }
 
     /**
-     * Caculate distance from origins to destinations
+     * Caculate distance from origins to destinations.
      *
      * @return int
      */
@@ -98,11 +100,11 @@ class DistanceApi implements GoogleDistanceContract
         try {
             $response = $client->get($this->apiUrl, [
                 'query' => [
-                    'units' => 'imperial',
-                    'origins' => $this->getOrigins(),
+                    'units'        => 'imperial',
+                    'origins'      => $this->getOrigins(),
                     'destinations' => $this->getDestinations(),
-                    'key' => $this->getApiKey(),
-                    'random' => random_int(1, 100),
+                    'key'          => $this->getApiKey(),
+                    'random'       => random_int(1, 100),
                 ],
             ]);
 
