@@ -17,6 +17,8 @@ composer require pnlinh/google-distance
 ## Usage
 
 ```php
+<?php
+
 require_once __DIR__ . '/vendor/autoload.php';
 
 use Pnlinh\GoogleDistance\Factory\GoogleDistance;
@@ -28,6 +30,12 @@ $distance = GoogleDistance::make('YOUR_GOOGLE_API_KEY')
 
 
 echo "Distance value is: ". $distance . PHP_EOL;
+```
+
+## Test
+
+```bash
+composer test
 ```
 
 ## Credits
