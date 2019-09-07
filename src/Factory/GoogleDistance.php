@@ -3,7 +3,7 @@
 namespace Pnlinh\GoogleDistance\Factory;
 
 use Pnlinh\GoogleDistance\Contracts\GoogleDistanceContract;
-use Pnlinh\GoogleDistance\DistanceApi;
+use Pnlinh\GoogleDistance\GoogleDistanceApi;
 
 class GoogleDistance
 {
@@ -16,6 +16,6 @@ class GoogleDistance
      */
     public static function make($apiKey): GoogleDistanceContract
     {
-        return new DistanceApi($apiKey);
+        return new GoogleDistanceApi($apiKey);
     }
 }
