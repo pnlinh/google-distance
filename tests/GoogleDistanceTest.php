@@ -15,7 +15,7 @@ class GoogleDistanceTest extends TestCase
 
         $this->assertNotNull($googleDistanceApi);
     }
-    
+
     /** @test */
     public function can_create_from_google_distance_factory_class()
     {
