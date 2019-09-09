@@ -35,7 +35,7 @@ class GoogleDistanceTest extends TestCase
 
         $this->assertEquals(-1, $distance);
     }
-    
+
     /** @test */
     public function origins_address_is_wrong()
     {
